@@ -1,0 +1,83 @@
+body {
+    background-color: var(--cor-de-fundo-body);
+    font-family: "Manrope", sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--cor-do-card);
+    height: 370px;
+    width: 600px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.caixa-de-texto {
+    height: 100%;
+    margin: 55px 30px;
+}
+
+.cartao .picture .img {
+    width: 100%;
+}
+
+.cartao .titulo {
+    color: var(--cor-do-botao-e-do-texto);
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    margin-bottom: 30px;
+
+}
+
+.cartao .conselho {
+    color: var(--cor-do-texto);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.cartao .caixa-de-texto .separador {
+    height: 20px;
+    width: 490px;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-do-botao-e-do-texto);
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: absolute;
+    left: 265px;
+    top: 340px;
+    border: none;
+
+}
+
+.icone-botao {
+    height: 28px;
+    width: 28px;
+
+}
+
+.container-botao .botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
