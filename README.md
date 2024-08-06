@@ -18,7 +18,6 @@ O desafio era criar um layout próximo deste do frontend mentor: Frontend Mentor
 
 ### Screenshot
 
-<<<<<<< HEAD
 <img src="./projeto croqui.png"><br><br>
 <img src="./gif projeto.gif">
 
@@ -39,7 +38,6 @@ Por fim estilizei começando do mais amplo 'body/main' para o mais específico '
 
 ### Construído com
 
->>>>>>> 005aee837cae190c6c00267c5ab89d80660d9da1
 - Marcações semânticas em HTML5
 - CSS propriedades de estilo
 - Flexbox
@@ -52,7 +50,4 @@ Neste exercício aprendi a organizar melhor cada classe, estilizando com maior c
 ### Recursos úteis
 
 - [Link] ([https://www.dio.me/articles/entendendo-max-width-e-min-width-em-css]) - Esta página me ajudou a compreender melhor como utilizar max-width e min-width para obter maior responsividade do projeto.
-<<<<<<< HEAD
-=======
 
->>>>>>> 005aee837cae190c6c00267c5ab89d80660d9da1
