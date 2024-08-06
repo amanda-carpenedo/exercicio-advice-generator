@@ -27,9 +27,6 @@ Primeiramente analisei a  imagem estática fornecida pelo desafio, marcando com 
 O segundo passo foi criar o código e tentar colocar a melhor TAG possível para cada coisa.
 Por fim estilizei começando do mais amplo 'body/main' para o mais específico 'button'.
 
-### Construído com
-
-=======
 ## Meu processo
 
 Primeiramente analisei a  imagem estática fornecida pelo desafio, marcando com retângulos coloridos cada parte a ser escrita em HTML e já imaginando como teria que estilizá-las depois.
