@@ -18,6 +18,7 @@ O desafio era criar um layout próximo deste do frontend mentor: Frontend Mentor
 
 ### Screenshot
 
+<<<<<<< HEAD
 <img src="./projeto croqui.png"><br><br>
 <img src="./gif projeto.gif">
 
@@ -29,6 +30,16 @@ Por fim estilizei começando do mais amplo 'body/main' para o mais específico '
 
 ### Construído com
 
+=======
+## Meu processo
+
+Primeiramente analisei a  imagem estática fornecida pelo desafio, marcando com retângulos coloridos cada parte a ser escrita em HTML e já imaginando como teria que estilizá-las depois.
+O segundo passo foi criar o código e tentar colocar a melhor TAG possível para cada coisa.
+Por fim estilizei começando do mais amplo 'body/main' para o mais específico 'button'.
+
+### Construído com
+
+>>>>>>> 005aee837cae190c6c00267c5ab89d80660d9da1
 - Marcações semânticas em HTML5
 - CSS propriedades de estilo
 - Flexbox
@@ -41,3 +52,7 @@ Neste exercício aprendi a organizar melhor cada classe, estilizando com maior c
 ### Recursos úteis
 
 - [Link] ([https://www.dio.me/articles/entendendo-max-width-e-min-width-em-css]) - Esta página me ajudou a compreender melhor como utilizar max-width e min-width para obter maior responsividade do projeto.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 005aee837cae190c6c00267c5ab89d80660d9da1
