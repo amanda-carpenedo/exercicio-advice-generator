@@ -12,16 +12,16 @@
     }
 
     .caixa-de-texto {
-    height: 100%;
-    margin: 55px 10px;
-}
+        height: 100%;
+        margin: 55px 10px;
+    }
 
 }
 
 
 @media screen and (max-width: 435px) {
     .cartao {
-      max-width: 400px;
+        max-width: 400px;
 
     }
 
@@ -29,8 +29,13 @@
 
 @media screen and (max-width: 395px) {
     .cartao {
-      max-width: 370px;
+        max-width: 370px;
 
+    }
+
+    .caixa-de-texto {
+        height: 100%;
+        margin: 55px 5px;
     }
 
 }
