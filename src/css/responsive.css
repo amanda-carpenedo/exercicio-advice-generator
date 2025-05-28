@@ -7,10 +7,15 @@
 
     .cartao .conselho {
         font-size: 20px;
-        padding: 0 50px;
+        padding: 0 10px;
         margin-bottom: 30px;
-
     }
+
+    .caixa-de-texto {
+    height: 100%;
+    margin: 55px 10px;
+}
+
 }
 
 
