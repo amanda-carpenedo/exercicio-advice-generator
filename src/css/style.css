@@ -18,8 +18,8 @@ main {
     justify-content: center;
     text-align: center;
     background-color: var(--cor-do-card);
-    height: 370px;
-    width: 600px;
+    max-height: 370px;
+    max-width: 600px;
     border-radius: 20px;
     position: relative;
 
@@ -47,11 +47,12 @@ main {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 30px;
+
 }
 
 .cartao .caixa-de-texto .separador {
-    height: 20px;
-    width: 490px;
+    max-height: 20px;
+    max-width: 490px;
 }
 
 
@@ -64,10 +65,10 @@ main {
     width: 75px;
     border-radius: 50%;
     position: absolute;
-    left: 265px;
-    top: 340px;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
     border: none;
-
 }
 
 .icone-botao {
@@ -79,5 +80,5 @@ main {
 .container-botao .botao:hover {
     color: #53FFAB;
     cursor: pointer;
-    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+    box-shadow: 1px 1px 20px hsl(150, 100%, 66%);
 }

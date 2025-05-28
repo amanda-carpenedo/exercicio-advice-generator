@@ -1,0 +1,31 @@
+@media screen and (max-width: 481px) {
+    .cartao {
+        max-height: 300px;
+        max-width: 420px;
+
+    }
+
+    .cartao .conselho {
+        font-size: 20px;
+        padding: 0 50px;
+        margin-bottom: 30px;
+
+    }
+}
+
+
+@media screen and (max-width: 435px) {
+    .cartao {
+      max-width: 400px;
+
+    }
+
+}
+
+@media screen and (max-width: 395px) {
+    .cartao {
+      max-width: 370px;
+
+    }
+
+}

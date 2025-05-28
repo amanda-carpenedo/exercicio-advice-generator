@@ -5,10 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+
+  <!-- links -->
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
 
+
+<!-- fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -23,23 +28,24 @@
   <main class="container">
     <div class="cartao">
       <div class="caixa-de-texto">
-        <h2 class="titulo">CONSELHO #1</h2>
-        <p class="conselho">"Se suas ações inspiram outros a sonhar mais, aprender mais, fazer mais e tornar-se mais, você é um líder."</p>
+        <h2 class="titulo" id="titulo">ADVICE GENERATOR</h2>
+        <p class="conselho" id="conselho">Need advice? Just tap the button!</p>
         <picture>
-          <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+          <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 500px)">
+          <source srcset="./src/images/pattern-divider-desktop.svg" media="(min-width: 501px)">
           <img src="./src/images/pattern-divider-desktop.svg" alt="separador" class="separador">
         </picture>
-       <div class="container-botao">
-         <button class="botao">
-           <img src="./src/images/icon-dice.svg" alt="ícone de um dado" class="icone-botao">
+        <div class="container-botao">
+          <button class="botao" id="botao">
+            <img src="./src/images/icon-dice.svg" alt="ícone de um dado" class="icone-botao">
           </button>
-        </div> 
+        </div>
       </div>
     </div>
-      
- 
   </main>
-  
+
+
+<script src="./index.js"></script>
 </body>
 
 </html>
